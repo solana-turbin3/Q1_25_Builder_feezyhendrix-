@@ -31,5 +31,7 @@ const mint = generateSigner(umi);
     `Succesfully Minted! Check out your TX here:\nhttps://explorer.solana.com/tx/${signature}?cluster=devnet`
   );
 
+  // https://explorer.solana.com/tx/36su8KsPEVq2zB7KnjzRmXQybjfp951T5doyWLSKEAeN1PaaUk2xiJbFvDeoAufw1M6bwtszwMsyj7bYmDpXJeDw?cluster=devnet
+
   console.log("Mint Address: ", mint.publicKey);
 })();
